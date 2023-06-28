@@ -59,3 +59,15 @@ function min(arr, toReturn) {
 ## Experience:
 
 > [Landing-page](https://yevhen-atlasov.github.io/717-landing-page/) training project
+
+## Courses:
+
+> **SoftServe** IT Academy
+
+![Certificate](./img/certificate.jpg)
+
+## English:
+
+> **Upper-intermediate** (according to the online test at [BRITISH COUNCIL](https://learnenglish.britishcouncil.org/))
+
+![Certificate](./img/certificate-2.jpg)

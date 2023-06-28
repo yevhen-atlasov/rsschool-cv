@@ -25,3 +25,37 @@ IT allows people to take their careers in a number of different directions. It i
 - Git, GitHub
 - VS Code
 - Adobe Photoshop
+
+## Code example:
+
+**Smallest value of an array KATA from CODEWARS**
+
+**DESCRIPTION:**
+
+_Write a function that can return the smallest value of an array or the index of that value. The function's 2nd parameter will tell whether it should return the value or the index._
+
+_Assume the first parameter will always be an array filled with at least 1 number and no duplicates. Assume the second parameter will be a string holding one of two values: 'value' and 'index'._
+
+**Example**
+
+```
+min([1,2,3,4,5], 'value') // => 1
+min([1,2,3,4,5], 'index') // => 0
+```
+
+**Solution**
+
+```
+function min(arr, toReturn) {
+  switch (toReturn) {
+    case 'value':
+      return Math.min.apply(Math, arr);
+    case 'index':
+      return arr.indexOf(Math.min.apply(Math, arr));
+  }
+}
+```
+
+## Experience:
+
+> [Landing-page](https://yevhen-atlasov.github.io/717-landing-page/) training project

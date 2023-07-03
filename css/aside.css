@@ -1,0 +1,52 @@
+.contact__list {
+  width: 200px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact__link-github::before,
+.contact__link-email::before,
+.contact__link-tel::before,
+.contact__link-map::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  width: 1em;
+  height: 1em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s linear;
+}
+
+.contact__link-github::before {
+  background-image: url("../assets/svg/github.svg");
+}
+
+.contact__link-github:hover::before {
+  background-image: url("../assets/svg/github_hover.svg");
+}
+
+.contact__link-email::before {
+  background-image: url("../assets/svg/email.svg");
+}
+
+.contact__link-email:hover::before {
+  background-image: url("../assets/svg/email_hover.svg");
+}
+
+.contact__link-tel::before {
+  background-image: url("../assets/svg/telegram.svg");
+}
+
+.contact__link-tel:hover::before {
+  background-image: url("../assets/svg/telegram_hover.svg");
+}
+
+.contact__link-map::before {
+  background-image: url("../assets/svg/map.svg");
+}
+
+.contact__link-map:hover::before {
+  background-image: url("../assets/svg/map_hover.svg");
+}

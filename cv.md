@@ -1,0 +1,73 @@
+# Yevhen Atlasov
+
+![Avatar](./assets/img/avatar.jpg)
+
+## Contact information:
+
+- **E-mail:** atik.2869@gmail.com
+- **Telegram:** [@yevhen_atlasov](https://t.me/yevhen_atlasov)
+- **Discord:** [@yevhen-atlasov](https://discordapp.com/users/1025067400405733437)
+- **GitHub:** [yevhen-atlasov](https://github.com/yevhen-atlasov)
+- **Address:** [Ukraine, Kyiv](https://goo.gl/maps/ULHoKPi7zTffnK5F8)
+
+## About Me:
+
+My name is Yevhen, I am Ukrainian, from Kyiv. I am fifty three, yes, right. I am fifty three. I am sure that you gonna be surprised that I want to study IT profession at my fifty three. But actually, I believe that age is nothing more than just a number.
+
+In the last time I thought about learning IT profession. And almost all the time I heart that it is difficult and I am old for it. But I am totally sure that it is not true and it is not about me.
+
+IT allows people to take their careers in a number of different directions. It is not only about working remotely and earning a lot of money, for me it is a chance, it is my dream to prove that nothing is impossible, even to get a new profession at fifty three. Why not?
+
+## Skills:
+
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code
+- Adobe Photoshop
+
+## Code example:
+
+**Smallest value of an array KATA from CODEWARS**
+
+**DESCRIPTION:**
+
+_Write a function that can return the smallest value of an array or the index of that value. The function's 2nd parameter will tell whether it should return the value or the index._
+
+_Assume the first parameter will always be an array filled with at least 1 number and no duplicates. Assume the second parameter will be a string holding one of two values: 'value' and 'index'._
+
+**Example**
+
+```
+min([1,2,3,4,5], 'value') // => 1
+min([1,2,3,4,5], 'index') // => 0
+```
+
+**Solution**
+
+```
+function min(arr, toReturn) {
+  switch (toReturn) {
+    case 'value':
+      return Math.min.apply(Math, arr);
+    case 'index':
+      return arr.indexOf(Math.min.apply(Math, arr));
+  }
+}
+```
+
+## Experience:
+
+> [Landing-page](https://yevhen-atlasov.github.io/717-landing-page/) training project
+
+## Courses:
+
+> **SoftServe** IT Academy
+
+![Certificate](./assets/img/certificate.jpg)
+
+## English:
+
+> **Upper-intermediate** (according to the online test at [BRITISH COUNCIL](https://learnenglish.britishcouncil.org/))
+
+![Certificate](./assets/img/certificate-2.jpg)

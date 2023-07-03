@@ -1,0 +1,8 @@
+.code__p {
+  padding: 5px 10px;
+  font-family: monospace;
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-color);
+  background-color: var(--background-color-code);
+}

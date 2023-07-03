@@ -1,6 +1,6 @@
 # Yevhen Atlasov
 
-![Avatar](./img/avatar.jpg)
+![Avatar](./assets/img/avatar.jpg)
 
 ## Contact information:
 
@@ -64,10 +64,10 @@ function min(arr, toReturn) {
 
 > **SoftServe** IT Academy
 
-![Certificate](./img/certificate.jpg)
+![Certificate](./assets/img/certificate.jpg)
 
 ## English:
 
 > **Upper-intermediate** (according to the online test at [BRITISH COUNCIL](https://learnenglish.britishcouncil.org/))
 
-![Certificate](./img/certificate-2.jpg)
+![Certificate](./assets/img/certificate-2.jpg)
